@@ -8,6 +8,16 @@ Netflix take home assignment
 
 NodeJS + NPM are needed
 
+### Package Dependency
+* Database - diskdb (No dedicated server needed for convenience)
+* Task queue(batch job) - better-queue (No dedicated server needed for convenience)
+
+### File structure
+* server/models - simple wrapper to simulate all database operation,
+* server/jobs - task job for non-real time tasks
+* server/data - json database
+* server.js - router + logic, since the logic is relatively easy, I put price change logic here
+
 ### How to start
 ```
 npm start
