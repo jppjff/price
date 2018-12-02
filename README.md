@@ -6,8 +6,10 @@ Netflix take home assignment
 
 ### Prerequisites
 
-NodeJS + NPM are needed
-
+NodeJS + NPM are needed, run the command below to install dependencies
+```
+npm install 
+```
 ### Package Dependency
 * Database - diskdb (No dedicated server needed for convenience)
 * Task queue(batch job) - better-queue (No dedicated server needed for convenience)
@@ -19,7 +21,9 @@ NodeJS + NPM are needed
 * server.js - router + logic, since the logic is relatively easy, I put price change logic here
 
 ### How to start
+
 ```
+npm install 
 npm start
 ```
 
